@@ -123,6 +123,10 @@ a {
     font-weight: 900;
 }
 
+.subscription-wrapper {
+    font-size: 0.875rem;
+}
+
 .subscription-current-plan,
 .subscription-current-price {
     margin: 0.4em;
@@ -132,8 +136,8 @@ a {
     color:  hsl(224, 23%, 55%);
 }
 
-.subscription-wrapper {
-    font-size: 0.875rem;
+.subscription-change-plan {
+    transition: all 0.25s;
 }
 
 .subscription-wrapper a {
